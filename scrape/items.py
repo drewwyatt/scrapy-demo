@@ -8,7 +8,7 @@
 import scrapy
 
 
-class ScrapeItem(scrapy.Item):
+class PartItem(scrapy.Item):
     # define the fields for your item here like:
     name = scrapy.Field()
     partNumber = scrapy.Field()
